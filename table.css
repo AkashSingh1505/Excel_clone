@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.optionbar{
+    background-color: #107c41;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+.optionbar h4{
+    font-weight: bold;
+    color: white;
+}
+.saveButton{
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+}
+.saveButton p{
+    margin-left: 4px;
+    font-size: 0.85rem;
+    color: rgb(225, 218, 218);
+
+}
+.closeButton{
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+}
+.closeButton p{
+    margin-right: 4px;
+    font-size: 0.85rem;
+    color: rgb(225, 218, 218);
+
+}
+
+/* tool bar */
+
+.toolbar{
+    background-color: #f1f1f1;
+    display: flex;
+    height: 6vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 8px;
+    padding-left:8px
+}
+
+.subToolbar{
+    background-color: #f1f1f1;
+    display: flex;
+    height: 6vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 8px;
+    padding-left:8px
+}
+
+
+.inputFieldtool{
+    height: 100%;
+    width: 66%;
+    display: flex;
+    align-items: center;
+}
+
+.inputFieldtool input{
+    margin-left: 8px;
+    height: 80%;
+    padding-left: 5px;
+    flex-grow: 1;
+}
+
+
+.tool{
+    margin-left: 2px;
+    font-size: 1.2rem;
+
+}
+
+/* Border style */
+
+.content{
+    background-color: white;
+    border-color: black;
+}
+.select-all{
+    background-color: white;
+    height: 28.857px;
+    width: 28.857px;
+    border-right: 0.571px solid;
+    border-bottom: 0.571px solid;
+}
+
+.column-name-container{
+    display: flex;
+    align-items: center;
+}
+
+.column-name{
+    width: 99.429px;
+    height: 28.567px;
+    border-right: 0.571px solid;
+    text-align: center;
+}
+
+/* .row-name-container{
+    display: flex;
+    flex-direction: column;
+} */
+.row-name{
+    width: 28.857px;
+    height: 24.429px;
+    border-bottom: 0.571px solid;
+}
+
+
